@@ -75,9 +75,6 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="bg-blue-600 hover:bg-blue-700 w-full">
-                Enroll Now
-              </Button>
             </div>
           </div>
         )}

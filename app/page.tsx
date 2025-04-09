@@ -72,7 +72,8 @@ export default function Home() {
                 creating opportunities for growth.
               </p>
               <Button className="bg-blue-600 hover:bg-blue-700">
-                Learn More <ChevronRight className="ml-2 h-4 w-4" />
+                <Link href="/about"> Learn More</Link>
+                <ChevronRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </div>
@@ -145,13 +146,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-blue-600 hover:bg-gray-100">
-              Contact Us
-            </Button>
-            <Button
-              variant="outline"
-              className="text-white border-white hover:bg-blue-700"
-            >
-              View Courses
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
         </div>
@@ -184,14 +179,7 @@ export default function Home() {
                     About Us
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href="/courses"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    Courses
-                  </Link>
-                </li>
+
                 <li>
                   <Link
                     href="/contact"

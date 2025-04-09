@@ -62,14 +62,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
             Our History
           </h2>
-          <div className="relative h-[300px] md:h-[400px] mb-8 rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=800&width=1600"
-              alt="NETCO SOCIETY History"
-              fill
-              className="object-cover"
-            />
-          </div>
+
           <div className="max-w-4xl mx-auto">
             <p className="text-gray-600 mb-4">
               Founded in 2001, NETCOM SOCIETY began as a small educational
@@ -153,9 +146,6 @@ export default function AboutPage() {
             growth, and community engagement. Discover the NETCOM SOCIETY
             difference today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline">Contact Us</Button>
-          </div>
         </section>
       </main>
 
